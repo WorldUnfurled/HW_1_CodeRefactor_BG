@@ -15,11 +15,16 @@ Refactored HTML and CSS code
 + Added quotes around Calibri font name
 + Changed appropriate divs to navs
 
+**LINKS**
++ Project: https://github.com/WorldUnfurled/HW_1_CodeRefactor_BG
++ Deployed: https://worldunfurled.github.io/HW_1_CodeRefactor_BG/
+
 **SUMMARY**
 + Title is descriptive and concise
-+ HTML is now semanatic
++ HTML is now semantic
 + HTML structure flows logically
 + Elements flow correctly
 + Images contain alt attributes
-+ Headings fall i sequential order
++ Headings fall in sequential order
 + Screenshot of webpage added under 02-Homework/Develop/assets/images/coderefactor_final.png
+![screenshot](assets/images/coderefactor_final.png)
