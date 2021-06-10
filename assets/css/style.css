@@ -1,0 +1,201 @@
+* { /* Ensures content boxes are set to shrink to absorb width of border and padding;
+       Resets default padding and margin across the entire page*/
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body { /* Sets default background color for entire body */
+    background-color: #d9dcd6;
+}
+
+.header { /* Sets font, color, and padding defaults for entire header */
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #2a607c;
+    color: #ffffff;
+}
+
+.header h1 { /* Sets font-size and inline-block allowing for width and height properties on h1 elements*/
+    display: inline-block;
+    font-size: 48px;
+}
+
+.header h1 .seo { /* Colors "seo" part of "Horiseon" Logo */
+    color: #d9dcd6;
+}
+
+.header nav { /* Spaces nav element from screen edges, floats it, and provides font specifications*/
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+
+.header nav ul { /* Gets rid of list item bullet points in nav */
+    list-style-type: none;
+}
+
+.header nav ul li { /* Sets inline-block allowing for width and height properties on list elements and pushes the elements right */
+    display: inline-block;
+    margin-left: 25px;
+}
+
+a { /* Sets color for links and removes the default underline*/
+    color: #ffffff;
+    text-decoration: none;
+}
+
+p { /* Sets paragraph font size to 16px */
+    font-size: 16px;
+}
+
+.hero { /* Fills blank HTML section creating a section with an image background, sizes it to fit the screen width wise, and positions it */
+    height: 800px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url("../images/digital-marketing-meeting.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.float-left { /* Floats images it is applied to left in their container */
+    float: left;
+    margin-right: 25px;
+}
+
+.float-right { /* Floats images it is applied to right in their container */
+    float: right;
+    margin-left: 25px;
+}
+
+.content { /* Specifies main content's width and positioning and sets its display to inline-block */
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.benefits { /* Specifications for benefits which include positioning, padding, a clear property, which makes sure no floating items are to the right or left of the text, font-families, and a background-color */ 
+    margin-right: 20px;
+    padding: 20px;
+    clear: both;
+    float: right;
+    width: 20%;
+    height: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+    background-color: #2589bd;
+}
+
+.benefit-lead { /* Specifies a bottom margin and color for the first benefit element */
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+.benefit-brand { /* Specifies a bottom margin and color for the benefit element (same as first) */
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+.benefit-cost { /* Specifies a bottom margin and color for the benefit element (same as first) */
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+.benefit-lead h3 { /* Specifies a bottom margin and centers the first benefit element heading */
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.benefit-brand h3 { /* Specifies a bottom margin and centers the first benefit element heading (same as first) */
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.benefit-cost h3 { /* Specifies a bottom margin and centers the first benefit element heading (same as first) */
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.benefit-lead img { /* Changes image to be displayed as blocks so that each image takes up a new line */
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
+.benefit-brand img { /* Changes image to be displayed as blocks so that each image takes up a new line */
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
+.benefit-cost img { /* Changes image to be displayed as blocks so that each image takes up a new line */
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
+.search-engine-optimization { /* Gives specific positioning, height, background-color, font-family, and color properties for the first nav link */
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+.online-reputation-management { /* Gives specific positioning, height, background-color, font-family, and color properties for the second nav link */
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+.social-media-marketing { /* Gives specific positioning, height, background-color, font-family, and color properties for the third nav link */
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+.search-engine-optimization img { /* Gives image associated with first nav link a max height */
+    max-height: 200px;
+}
+
+.online-reputation-management img { /* Gives image associated with second nav link a max height */
+    max-height: 200px;
+}
+
+.social-media-marketing img { /* Gives image associated with third nav link a max height */
+    max-height: 200px;
+}
+
+.search-engine-optimization h2 { /* Specifies bottom margin and font size for first nav link text */
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+.online-reputation-management h2 { /* Specifies bottom margin and font size for second nav link text */
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+.social-media-marketing h2 { /* Specifies bottom margin and font size for third nav link text */
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+.footer { /* Specifies footer content padding, clear, and font-family and centers the content */
+    padding: 30px;
+    clear: both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+
+.footer h2 { /* Specifies font size for footer heading */
+    font-size: 20px;
+}
