@@ -22,3 +22,4 @@ Refactored HTML and CSS code
 + Elements flow correctly
 + Images contain alt attributes
 + Headings fall i sequential order
++ Screenshot of webpage added under 02-Homework/Develop/assets/images/coderefactor_final.png
